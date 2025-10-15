@@ -1,0 +1,36 @@
+name: DLSem3
+channels:
+  - nvidia
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - matplotlib-inline
+  - jupyter-client
+  - ipykernel
+  - ipython
+  - pyyaml
+  - tqdm
+  - requests
+  - pytorch=2.5.1
+  - pytorch-cuda=11.8
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.8
+  - cffi
+  - six
+  - typing_extensions
+  - setuptools
+  - wheel
+  - pip:
+      - kagglehub
+      - stack-data
+      - prompt-toolkit
+      - pyzmq
+      - debugpy
